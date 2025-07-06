@@ -14,13 +14,19 @@ public class Employee {
 
 	private int age;
 
-	private long mobile;
+	private String mobile;
 
 	private String mail;
 
+	
+	
 	public long getId() {
 		return id;
-	} 
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
 
 	public String getName() {
 		return Name;
@@ -54,11 +60,11 @@ public class Employee {
 		this.age = age;
 	}
 
-	public long getMobile() {
+	public String getMobile() {
 		return mobile;
 	}
 
-	public void setMobile(long mobile) {
+	public void setMobile(String mobile) {
 		this.mobile = mobile;
 	}
 
