@@ -11,7 +11,7 @@ public class TaskCls implements tasks_intf {
 	Scanner s1 = new Scanner(System.in);
 	Scanner s2 = new Scanner(System.in);
 	final String USERNAME = "root";
-	final String PASSWORD = "Jaybhoi1229T";
+	final String PASSWORD = "********";
 	final String URL = "jdbc:mysql://localhost:3306/employee_db";
 
 	@Override
